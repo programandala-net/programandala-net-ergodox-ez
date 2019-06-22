@@ -1,0 +1,24 @@
+= programandala.net ErgoDox EZ
+:author: Marcos Cruz (programandala.net)
+:revdate: 2019-06-22
+
+// This file is part of project
+// _programandala.net ErgoDox EZ_
+//
+// by Marcos Cruz (programandala.net)
+// http://programandala.net
+//
+// This file is in Asciidoctor format
+// (http//asciidoctor.org)
+
+== Description
+
+This project is my configuration of the http://ergodox-ez.com[ErgoDox
+EZ] keyboard: Spanish Dvorak, and thumb keys arranged after the
+excellent
+https://kinesis-ergo.com/keyboards/advantage2-keyboard/[Kinesis
+Advantage], which I've been using for 10 years.
+
+You can see the look of the
+https://configure.ergodox-ez.com/ergodox-ez/layouts/JarGp/latest/0[current
+draft version, designed with the Oryx online configurator].
