@@ -14,11 +14,40 @@
 == Description
 
 This project is my configuration of the http://ergodox-ez.com[ErgoDox
-EZ] keyboard, with a Spanish Dvorak layout and thumb keys arranged
-after the excellent
+EZ] keyboard.
+
+At the moment it has the following layers:
+
+[start=0]
+. Spanish Dvorak layout, to be used when it's not already selected in
+  the OS.
+. Functions, cursor and mouse movement (an alternative to
+  https://github.com/jordansissel/keynav[keynav], which I use a lot
+  and is faster and easier most of the times).
+. Spanish QWERTY layout, to be used when the Spanish Dvorak is already
+  selected in the OS.
+
+The thumb keys are arranged after the excellent
 https://kinesis-ergo.com/keyboards/advantage2-keyboard/[Kinesis
 Advantage], which I've been using for 10 years.
 
-You can see the look of the
-https://configure.ergodox-ez.com/ergodox-ez/layouts/QzLDp/latest/0[current
-draft version, designed with the Oryx online configurator].
+You can see the look of the 
+https://configure.ergodox-ez.com/ergodox-ez/layouts/QzLDp/latest/0[last
+version designed with the Oryx online configurator].
+
+I used the
+https://configure.ergodox-ez.com/ergodox-ez/layouts/default/latest/0[Oryx
+online configurator] to draft and compile the first versions of the
+keyboard layout, but it has some limitations, e.g. sticky keys can not
+be defined.
+
+== Usage
+
+I compile the source with https://qmk.fm[QMK]. Then I flash the
+keyboard with teensy:
+
+- https://pkgs.org/download/teensy-loader-cli[Debian and Ubuntu
+  packages of teensy (CLI variant)]
+- https://www.pjrc.com/teensy/loader_linux.html[binarys of teensy (GUI
+  variant)]
+
