@@ -1,5 +1,5 @@
 // programandala.net ErgoDox EZ
-// Version 0.1.0+201906221212
+// Version 0.1.1+201906221605
  
 // By Marcos Cruz (programandala.net)
 
@@ -44,7 +44,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	KC_3,
 	KC_4,
 	KC_5,
-	KC_ESCAPE,
+	KC_TRANSPARENT,
 
 	// Left hand, row 2:
 	KC_CAPSLOCK,
@@ -53,7 +53,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	ES_NTIL,
 	KC_P,
 	KC_Y,
-	KC_TRANSPARENT,
+	KC_ESCAPE,
 
 	// Left hand, row 3:
 	KC_TAB,
@@ -88,7 +88,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	KC_END,
 
 	// Right hand, row 1:
-	KC_ESCAPE,
+	KC_TRANSPARENT,
 	KC_6,
 	KC_7,
 	KC_8,
@@ -97,7 +97,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	ES_APOS,
 
 	// Right hand, row 2:
-	KC_TRANSPARENT,
+	KC_ESCAPE,
 	KC_F,
 	KC_G,
 	KC_C,
@@ -149,7 +149,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	KC_F3,
 	KC_F4,
 	KC_F5,
-	KC_ESCAPE,
+	KC_TRANSPARENT,
 
 	// Left hand, row 2:
 	KC_TRANSPARENT,
@@ -158,7 +158,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	KC_MS_WH_DOWN,
 	KC_MS_WH_RIGHT,
 	KC_PC_CUT,
-	KC_TRANSPARENT,
+	KC_ESCAPE,
 
 	// Left hand, row 3:
 	KC_TAB,
@@ -193,7 +193,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	KC_END,
 
 	// Right hand, row 1:
-	KC_ESCAPE,
+	KC_TRANSPARENT,
 	KC_F6,
 	KC_F7,
 	KC_F8,
@@ -202,7 +202,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	KC_F11,
 
 	// Right hand, row 2:
-	KC_TRANSPARENT,
+	KC_ESCAPE,
 	KC_PC_CUT,
 	KC_MS_WH_LEFT,
 	KC_MS_WH_DOWN,
@@ -256,7 +256,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	KC_3,
 	KC_4,
 	KC_5,
-	KC_ESCAPE,
+	KC_TRANSPARENT,
 
 	// Left hand, row 2:
 	KC_CAPSLOCK,
@@ -265,7 +265,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	KC_E,
 	KC_R,
 	KC_T,
-	KC_TRANSPARENT,
+	KC_ESCAPE,
 
 	// Left hand, row 3:
 	KC_TAB,
@@ -300,7 +300,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	KC_END,
 
 	// Right hand, row 1:
-	KC_ESCAPE,
+	KC_TRANSPARENT,
 	KC_6,
 	KC_7,
 	KC_8,
@@ -309,7 +309,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	ES_APOS,
 
 	// Right hand, row 2:
-	KC_TRANSPARENT,
+	KC_ESCAPE,
 	KC_Y,
 	KC_U,
 	KC_I,
