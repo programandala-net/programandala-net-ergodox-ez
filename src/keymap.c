@@ -1,9 +1,9 @@
 // programandala.net ErgoDox EZ
-// Version 0.2.0+201906231825
+// Version 0.3.0+201909101143
 
 // By Marcos Cruz (programandala.net), 2019
 
-// 2019-06-23
+// http://programandala.net/es.programa.programandala_net_ergodox_ez.html
 
 #include QMK_KEYBOARD_H
 #include "version.h"
@@ -93,7 +93,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // Right hand
 
   KC_TRANSPARENT, KC_F6,       KC_F7,          KC_F8,          KC_F9,          KC_F10,         KC_F11,
-  KC_ESCAPE,      KC_PC_CUT,   KC_MS_WH_LEFT,  KC_MS_WH_DOWN,  KC_MS_WH_UP,    KC_MS_WH_RIGHT, KC_TRANSPARENT,
+  KC_ESCAPE,      KC_PC_CUT,   KC_MS_WH_LEFT,  KC_MS_WH_DOWN,  KC_MS_WH_UP,    KC_MS_WH_RIGHT, KC_F12,
                   KC_PC_COPY,  KC_MS_LEFT,     KC_MS_DOWN,     KC_MS_UP,       KC_MS_RIGHT,    KC_TAB,
   KC_TRANSPARENT, KC_PC_PASTE, KC_LEFT,        KC_DOWN,        KC_UP,          KC_RIGHT,       OSM(MOD_RSFT),
                                KC_UP,          KC_DOWN,        KC_TRANSPARENT, KC_TRANSPARENT, TG(2),
