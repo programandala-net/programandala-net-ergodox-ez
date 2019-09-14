@@ -1,5 +1,5 @@
 // programandala.net ErgoDox EZ
-// Version 0.3.0+201909101143
+// Version 0.3.1+201909141908
 
 // By Marcos Cruz (programandala.net), 2019
 
@@ -114,7 +114,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // Left hand
 
   ES_IEXL,        KC_1,       KC_2,      KC_3,     KC_4,      KC_5,  KC_TRANSPARENT,
-  KC_CAPSLOCK,    KC_KP_DOT,  KC_COMMA,  ES_NTIL,  KC_P,      KC_Y,  KC_ESCAPE,
+  KC_CAPSLOCK,    KC_DOT,     KC_COMMA,  ES_NTIL,  KC_P,      KC_Y,  KC_ESCAPE,
   KC_TAB,         KC_A,       KC_O,      KC_E,     KC_U,      KC_I,
   OSM(MOD_LSFT),  ES_MINS,    KC_Q,      KC_J,     KC_K,      KC_X,  KC_TRANSPARENT,
   TG(1),          ES_OVRR,    ES_LESS,   KC_LEFT,  KC_RIGHT,
