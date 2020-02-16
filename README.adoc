@@ -1,6 +1,6 @@
 = programandala.net ErgoDox EZ
 :author: Marcos Cruz (programandala.net)
-:revdate: 2019-06-22
+:revdate: 2020-02-16
 
 // This file is part of project
 // _programandala.net ErgoDox EZ_
@@ -19,22 +19,19 @@ EZ] keyboard.
 At the moment it has the following layers:
 
 [start=0]
-. Spanish Dvorak layout, to be used when it's not already selected in
-  the OS.
-. Functions, cursor and mouse movement (an alternative to
-  https://github.com/jordansissel/keynav[keynav], which I use a lot
-  and is faster and easier most of the times).
 . Spanish QWERTY layout, to be used when the Spanish Dvorak is already
   selected in the OS.
+. Spanish Dvorak layout, to be used when it's not already selected in
+  the OS.
+. One-shot function keys.
 
 The thumb keys are arranged after the excellent
 https://kinesis-ergo.com/keyboards/advantage2-keyboard/[Kinesis
 Advantage], which I've been using for 10 years.
 
-You can see the look of the 
-https://configure.ergodox-ez.com/ergodox-ez/layouts/QzLDp/latest/0[last
-version designed with the Oryx online configurator].
-
+You can see the look of an
+https://configure.ergodox-ez.com/ergodox-ez/layouts/QzLDp/latest/0[old
+version of this layout, designed with the Oryx online configurator].
 I used the
 https://configure.ergodox-ez.com/ergodox-ez/layouts/default/latest/0[Oryx
 online configurator] to draft and compile the first versions of the
@@ -44,10 +41,9 @@ be defined.
 == Usage
 
 I compile the source with https://qmk.fm[QMK]. Then I flash the
-keyboard with teensy:
+keyboard with the CLI variant of teensy:
 
 - https://pkgs.org/download/teensy-loader-cli[Debian and Ubuntu
   packages of teensy (CLI variant)]
 - https://www.pjrc.com/teensy/loader_linux.html[binarys of teensy (GUI
   variant)]
-
